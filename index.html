@@ -5,33 +5,88 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>The World of Avatar: The Last Airbender</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="htdocs/pictures/logo.ico">
+  <link href="cssdocs/style.css" rel="stylesheet" type="text/css" />
   <style>
-  .center {
+  .center1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 50%;
+  }
+  .center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  }
+  body {
+    background-color: #611e03;
+  }
+  p {
+    margin: 0px 10% 20px;
+    text-align: justify;
+  }
+  .container {
+  position: relative;
+  text-align: center;
+  color: black;
+  }
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fef6db;
   }
   </style>
 </head>
 
 <body>
 
-  <div>
-    <div>
-      <img src=pictures\title.png alt="Avatar: The Last Airbender" class="center">
-      <p>Avatar: The Last Airbender is an American anime-influenced animated television series co-created by Michael Dante DiMartino and Bryan Konietzko, and produced by Nickelodeon Animation Studios. The show aired from February 2005 to July 2008. Avatar is set in a world where people can telekinetically manipulate one of the four elements: water, earth, fire or air, through practices known as "bending", inspired by Chinese martial arts. The only individual who can bend all four elements, the "Avatar", is responsible for maintaining harmony among the world's four nations, and serves as the bridge between the physical world and the spirit world. (Wikipedia)</p>
-    </div>
-    <span>
-      <h3><a href="fournations.html"> The Four Nations </a></h3>
-      <h3><a href="characters.html">The Characters </a></h3>
-      <h3><a href="season 1.html">Book 1: Water </a></h3>
-      <h3><a href="season 2.html">Book 2: Earth </a></h3>
-      <h3><a href="season 3.html">Book 3: Fire </a></h3>
-      <h3><a href="opinions.html">My Opinions </a></h3>
-    </span>
+
+  <div class="header">
+    <a href="index.html"><img src="htdocs/pictures/title 1.png" title="Home" height=30 width=120></a>
+    <div class="header-right">
+      <a href="htdocs/fournations.html"><img src="htdocs/pictures/four nations.png" title="The Four Nations" height=30 width=30></a>
+      <a href="htdocs/characters.html"><img src="htdocs/pictures/characters.png" title="The Characters" height=30 width=30></a>
+  </div>
   </div>
 
+  <div class="hidden">
+    <div id="content">
+      <div>
+        <img src="htdocs/pictures/title.png" alt="Avatar: The Last Airbender" class="center1">
+      </div>
+      <div>
+        <p> This website aims to explain and expound on all different aspects of my favorite show, Avatar: The Last Airbender. (note: the first five pages do not discuss the sequel series, books, and comics produced after the original series) </p>
+          
+        <p>Avatar: The Last Airbender (abbreviated: ATLA) is an American anime-influenced animated television series co-created by Michael Dante DiMartino and Bryan Konietzko, and produced by Nickelodeon Animation Studios. The show aired from February 2005 to July 2008. ATLA is set in a world where people can telekinetically manipulate one of the four elements: water, earth, fire or air, through practices known as "bending", inspired by Chinese martial arts. The only person who can bend all four elements, the "Avatar", is responsible for maintaining harmony among the world's four nations, and serves as the bridge between the physical world and the spirit world. (Wikipedia)</p>
+      </div>
+      <div class="container">
+        <a href="htdocs/fournations.html"><img src="htdocs/pictures/fournations 1.png" alt="The Four Nations" title="The Four Nations" class="center2"></a>
+        <h2 class="centered"> The Four Nations </h2>
+      </div>
+      <div class="container">
+        <a href="htdocs/characters.html"><img src="htdocs/pictures/characters 1.png" alt="The Characters" title="The Characters" class="center2"></a>
+        <h2 class="centered"> The Characters </h3>
+      </div>
+      <div class="container">
+        <a href="htdocs/season 1.html"><img src="htdocs/pictures/book1 1.png" alt="Book 1: Water" title="Book 1: Water" class="center2"></a>
+        <h2 class="centered"> Book 1: Water </h3>
+      </div>
+      <div class="container">
+        <a href="htdocs/season 2.html"><img src="htdocs/pictures/book2 1.png" alt="Book 2: Earth" title="Book 2: Earth" class="center2"></a>
+        <h2 class="centered"> Book 2: Earth </h3>
+      </div>
+      <div class="container">
+        <a href="htdocs/season 3.html"><img src="htdocs/pictures/book3 1.png" alt="Book 3: Fire" title="Book 3: Fire" class="center2"></a>
+        <h2 class="centered"> Book 3: Fire </h3>
+      </div>
+      <div class="container">
+        <a href="htdocs/opinions.html"><img src="htdocs/pictures/myopinions.png" alt="My Opinions" title="My Opinions" class="center2"></a>
+      </div>
+    </div>
+  </div>
 
 </html>
