@@ -1,7 +1,55 @@
 html, body {
-  height: 100%;
-  width: 100%;
+
   font-family: Herculanum;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+body {
+  background-color: #611e03;
+}
+p {
+  text-align: justify;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fef6db;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 * {box-sizing: border-box;}
@@ -59,6 +107,7 @@ div.hidden {
   background-color: #fef6db;
   margin: 10%;
   z-index: 1;
+  overflow: auto; /* added this line so that the background appears to extend to all content */
 }
 
 .right {
